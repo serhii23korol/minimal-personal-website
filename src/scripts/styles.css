@@ -1,0 +1,59 @@
+/* General Styles */
+/* Sets the default font, background color, and text color for the entire page */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles the main container that holds all the content */
+.container {
+    max-width: 800px; /* Limits the width of the container to 800 pixels */
+    margin: 0 auto; /* Centers the container on the page */
+    padding: 20px; /* Adds padding inside the container */
+}
+
+/* Section Styles */
+/* Adds spacing between sections */
+section {
+    margin-bottom: 40px;
+}
+
+/* Styles the main heading (Serhii Korol) */
+h1 {
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+/* Styles subheadings (Education, Work Experience, Skills, Projects) */
+h2 {
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+/* Styles paragraphs and lists */
+p, ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color:dimgray;
+}
+
+/* Removes the default list style and padding for unordered lists */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Link Styles */
+/* Styles links to make them distinct */
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+/* Adds an underline when the user hovers over a link */
+a:hover {
+    text-decoration: underline;
+}
